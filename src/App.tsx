@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>Todo List using TypeScript</h1>
       <div>this is typeScript.</div>
+      <div>this is typeScript.</div>
     </div>
   );
 }
