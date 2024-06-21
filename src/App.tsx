@@ -8,6 +8,7 @@ function App() {
       <div>this is typeScript.</div>
       <div>this is typeScript.</div>
       <div>sorry no update today.</div>
+      <div>sorry no update today day2.</div>
     </div>
   );
 }
