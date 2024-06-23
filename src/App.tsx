@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './App.css';
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
-      <h1>Todo List using TypeScript</h1>
-      <div>this is typeScript.</div>
-      <div>this is typeScript.</div>
-      <div>sorry no update today.</div>
-      <div>sorry no update today day2.</div>
-      <div>sorry no update today day3.</div>
-      <div>sorry no update today day4.</div>
+      <div className='header'>
+        <div className='inputContainer'>
+        <input type='text' placeholder='Task...'/>
+        <input type='number' placeholder='Deadline in days...'/>
+        </div>
+        <button>Add Task</button>
+      </div>
+      <div className='todoList'></div>
     </div>
   );
 }
